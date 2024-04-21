@@ -1,5 +1,6 @@
 Solution for the second question:
 
+Q2 - Fix or improve the implementation of the below method
 function printSmallGuildNames(memberCount)
   -- this method is supposed to print names of all guilds that have less than memberCount max members
   local selectGuildQuery = "SELECT name FROM guilds WHERE max_members < %d;"
