@@ -1,0 +1,9 @@
+Module
+  name: jumpWindow
+  decsription: Creates a Window with a jump button that jumps when clicked
+  author: Kevin Aldana
+  website: -
+  sandboxed: true
+  scripts: [ jumpWindow.lua ]
+  @onLoad: init()
+  @onUnload: terminate()
